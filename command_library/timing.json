@@ -1,0 +1,50 @@
+{
+    "category": "Timing",
+    "description": "Delay and wait commands",
+    "commands": [
+        {
+            "id": "wait_100",
+            "name": "Wait 100ms",
+            "code_template": "pros::delay(100);",
+            "color": "#888888",
+            "description": "Pause for 100 milliseconds"
+        },
+        {
+            "id": "wait_250",
+            "name": "Wait 250ms",
+            "code_template": "pros::delay(250);",
+            "color": "#888888",
+            "description": "Pause for 250 milliseconds"
+        },
+        {
+            "id": "wait_500",
+            "name": "Wait 500ms",
+            "code_template": "pros::delay(500);",
+            "color": "#888888",
+            "description": "Pause for half a second"
+        },
+        {
+            "id": "wait_1000",
+            "name": "Wait 1s",
+            "code_template": "pros::delay(1000);",
+            "color": "#888888",
+            "description": "Pause for one second"
+        },
+        {
+            "id": "wait_custom",
+            "name": "Wait (Custom)",
+            "code_template": "pros::delay({milliseconds});",
+            "color": "#AAAAAA",
+            "description": "Pause for custom duration",
+            "parameters": [
+                {
+                    "name": "milliseconds",
+                    "type": "int",
+                    "min": 1,
+                    "max": 15000,
+                    "default": 500
+                }
+            ]
+        }
+    ]
+}

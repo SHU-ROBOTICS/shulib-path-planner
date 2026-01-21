@@ -1,0 +1,12 @@
+# shulib Path Planner - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Pillow - For loading field background images (optional feature)
+Pillow>=9.0.0
+
+# Note: tkinter is required but comes built-in with Python
+# If you get "No module named tkinter", install it with:
+#   Ubuntu/Debian: sudo apt-get install python3-tk
+#   Fedora: sudo dnf install python3-tkinter
+#   macOS: brew install python-tk
+#   Windows: Usually included with Python installer

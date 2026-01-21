@@ -1,0 +1,31 @@
+{
+    "name": "Game Name",
+    "year": "20XX-20XX",
+    "description": "Brief description of the game",
+    
+    "include_commands_from": [
+        "intake",
+        "conveyor",
+        "scorer",
+        "pneumatics",
+        "timing",
+        "misc"
+    ],
+    
+    "command_overrides": {
+    },
+    
+    "custom_commands": [
+    ],
+    
+    "command_sequences": [
+    ],
+    
+    "default_starting_positions": {
+        "red_left": {"x": -48, "y": -60, "heading": 0},
+        "red_right": {"x": -48, "y": 60, "heading": 0},
+        "blue_left": {"x": 48, "y": 60, "heading": 180},
+        "blue_right": {"x": 48, "y": -60, "heading": 180},
+        "skills": {"x": -60, "y": -60, "heading": 0}
+    }
+}

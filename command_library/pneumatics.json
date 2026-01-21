@@ -1,0 +1,48 @@
+{
+    "category": "Pneumatics",
+    "description": "Commands for pneumatic actuators",
+    "commands": [
+        {
+            "id": "arm_toggle",
+            "name": "Toggle Arm",
+            "code_template": "mech.toggleArm();",
+            "color": "#FF00FF",
+            "description": "Toggle arm pneumatic"
+        },
+        {
+            "id": "arm_extend",
+            "name": "Extend Arm",
+            "code_template": "mech.extendArm();",
+            "color": "#FF66FF",
+            "description": "Extend arm pneumatic"
+        },
+        {
+            "id": "arm_retract",
+            "name": "Retract Arm",
+            "code_template": "mech.retractArm();",
+            "color": "#AA00AA",
+            "description": "Retract arm pneumatic"
+        },
+        {
+            "id": "lever_toggle",
+            "name": "Toggle Lever",
+            "code_template": "mech.toggleLever();",
+            "color": "#AA00FF",
+            "description": "Toggle lever pneumatic"
+        },
+        {
+            "id": "lever_extend",
+            "name": "Extend Lever",
+            "code_template": "mech.extendLever();",
+            "color": "#CC66FF",
+            "description": "Extend lever pneumatic"
+        },
+        {
+            "id": "lever_retract",
+            "name": "Retract Lever",
+            "code_template": "mech.retractLever();",
+            "color": "#8800AA",
+            "description": "Retract lever pneumatic"
+        }
+    ]
+}

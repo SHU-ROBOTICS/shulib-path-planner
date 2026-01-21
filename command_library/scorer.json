@@ -1,0 +1,43 @@
+{
+    "category": "Scorer",
+    "description": "Commands for scoring mechanisms (releaser, flywheel, etc.)",
+    "commands": [
+        {
+            "id": "scorer_forward",
+            "name": "Scorer Forward",
+            "code_template": "mech.releaserForward();",
+            "color": "#FF0000",
+            "description": "Run scorer forward"
+        },
+        {
+            "id": "scorer_backward",
+            "name": "Scorer Backward",
+            "code_template": "mech.releaserBackward();",
+            "color": "#AA0000",
+            "description": "Run scorer backward"
+        },
+        {
+            "id": "scorer_stop",
+            "name": "Scorer Stop",
+            "code_template": "mech.releaserStop();",
+            "color": "#660000",
+            "description": "Stop the scorer"
+        },
+        {
+            "id": "scorer_custom",
+            "name": "Scorer (Speed)",
+            "code_template": "mech.releaserMove({velocity});",
+            "color": "#CC0000",
+            "description": "Run scorer at custom velocity",
+            "parameters": [
+                {
+                    "name": "velocity",
+                    "type": "int",
+                    "min": -127,
+                    "max": 127,
+                    "default": 127
+                }
+            ]
+        }
+    ]
+}

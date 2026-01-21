@@ -1,0 +1,43 @@
+{
+    "category": "Conveyor",
+    "description": "Commands for conveyor/indexer mechanisms",
+    "commands": [
+        {
+            "id": "conveyor_up",
+            "name": "Conveyor Up",
+            "code_template": "mech.conveyorUp();",
+            "color": "#0088FF",
+            "description": "Run conveyor upward"
+        },
+        {
+            "id": "conveyor_down",
+            "name": "Conveyor Down",
+            "code_template": "mech.conveyorDown();",
+            "color": "#0044AA",
+            "description": "Run conveyor downward"
+        },
+        {
+            "id": "conveyor_stop",
+            "name": "Conveyor Stop",
+            "code_template": "mech.conveyorStop();",
+            "color": "#002266",
+            "description": "Stop the conveyor"
+        },
+        {
+            "id": "conveyor_custom",
+            "name": "Conveyor (Speed)",
+            "code_template": "mech.conveyorMove({velocity});",
+            "color": "#0066CC",
+            "description": "Run conveyor at custom velocity",
+            "parameters": [
+                {
+                    "name": "velocity",
+                    "type": "int",
+                    "min": -127,
+                    "max": 127,
+                    "default": 127
+                }
+            ]
+        }
+    ]
+}

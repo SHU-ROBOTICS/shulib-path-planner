@@ -1,0 +1,374 @@
+{
+  "version": "1.0.0",
+  "season": "pushback_2026",
+  "paths": [
+    {
+      "name": "New Path",
+      "alliance": "red",
+      "side": "left",
+      "waypoints": [
+        {
+          "x": -45.84,
+          "y": -43.19999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "start",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -20.880000000000003,
+          "y": -39.359999999999985,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -18.96,
+          "y": -17.519999999999996,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -43.44,
+          "y": 0.0,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -56.160000000000004,
+          "y": -12.239999999999995,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -54.96,
+          "y": -29.75999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -26.160000000000004,
+          "y": -13.439999999999998,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -5.52000000000001,
+          "y": 18.720000000000006,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -18.96,
+          "y": 41.28,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -46.56,
+          "y": 30.240000000000002,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -33.84,
+          "y": -6.47999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -8.160000000000004,
+          "y": -35.75999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -54.0,
+          "y": -37.19999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -15.840000000000003,
+          "y": -35.75999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -63.120000000000005,
+          "y": 16.560000000000002,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "alliance": "red",
+      "side": "left",
+      "waypoints": [
+        {
+          "x": -8.640000000000008,
+          "y": -32.39999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "start",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -30.720000000000006,
+          "y": 35.04,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -53.040000000000006,
+          "y": -17.039999999999992,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -50.400000000000006,
+          "y": -46.08,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -27.6,
+          "y": 0.960000000000008,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -37.440000000000005,
+          "y": 24.96,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -31.92,
+          "y": -30.47999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -22.560000000000002,
+          "y": -2.8799999999999955,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -55.44,
+          "y": -26.159999999999997,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -18.96,
+          "y": -12.239999999999995,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -43.68000000000001,
+          "y": -25.919999999999987,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -26.400000000000006,
+          "y": -42.72,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -48.0,
+          "y": -53.27999999999999,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -19.92,
+          "y": -53.999999999999986,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -46.8,
+          "y": 53.519999999999996,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -52.32,
+          "y": 9.120000000000005,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -42.72,
+          "y": -46.08,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        }
+      ]
+    }
+  ],
+  "modified": "2026-01-21T06:18:29.052198",
+  "created": "2026-01-21T06:18:29.052198"
+}

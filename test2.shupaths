@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "season": "pushback_2026",
+  "paths": [
+    {
+      "name": "New Path",
+      "alliance": "red",
+      "side": "left",
+      "waypoints": []
+    },
+    {
+      "name": "test2",
+      "alliance": "red",
+      "side": "left",
+      "waypoints": [
+        {
+          "x": -40.32000000000001,
+          "y": -57.84,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "start",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -35.04,
+          "y": 53.519999999999996,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -38.88,
+          "y": -48.959999999999994,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -36.0,
+          "y": 43.68000000000001,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -27.6,
+          "y": -36.239999999999995,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -15.360000000000007,
+          "y": -13.919999999999987,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -17.760000000000005,
+          "y": 10.560000000000002,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        },
+        {
+          "x": -27.360000000000007,
+          "y": 30.240000000000002,
+          "heading": null,
+          "heading_mode": "auto",
+          "motion_type": "moveToPose",
+          "reverse": false,
+          "intaking": false,
+          "conveyor": false,
+          "commands_after": []
+        }
+      ]
+    }
+  ],
+  "modified": "2026-01-21T06:29:54.156872",
+  "created": "2026-01-21T06:29:54.156872"
+}

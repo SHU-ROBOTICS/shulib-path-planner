@@ -1,0 +1,74 @@
+{
+    "name": "Push Back",
+    "year": "2025-2026",
+    "description": "Score blocks into goals, control goals for bonus points",
+    
+    "include_commands_from": [
+        "intake",
+        "conveyor",
+        "scorer",
+        "pneumatics",
+        "timing"
+    ],
+    
+    "command_overrides": {
+        "scorer_forward": {
+            "name": "Releaser →",
+            "description": "Run releaser forward to score"
+        },
+        "scorer_backward": {
+            "name": "Releaser ←",
+            "description": "Run releaser backward"
+        },
+        "scorer_stop": {
+            "name": "Releaser Stop",
+            "description": "Stop the releaser"
+        }
+    },
+    
+    "custom_commands": [
+        {
+            "id": "intake_and_conveyor_in",
+            "name": "Intake + Conveyor In",
+            "code_template": "mech.intakeIn();\nmech.conveyorUp();",
+            "color": "#00FFAA",
+            "category": "Combos",
+            "description": "Run both intake and conveyor inward"
+        },
+        {
+            "id": "stop_all_mechanisms",
+            "name": "Stop All",
+            "code_template": "mech.intakeStop();\nmech.conveyorStop();\nmech.releaserStop();",
+            "color": "#FF4444",
+            "category": "Combos",
+            "description": "Stop all mechanisms"
+        }
+    ],
+    
+    "command_sequences": [
+        {
+            "id": "score_full",
+            "name": "Score (Full)",
+            "commands": ["scorer_forward", "wait_500", "scorer_stop"],
+            "color": "#FFD700",
+            "category": "Sequences",
+            "description": "Release, wait, stop"
+        },
+        {
+            "id": "score_quick",
+            "name": "Score (Quick)",
+            "commands": ["scorer_forward", "wait_250", "scorer_stop"],
+            "color": "#FFCC00",
+            "category": "Sequences",
+            "description": "Quick release"
+        }
+    ],
+    
+    "default_starting_positions": {
+        "red_left": {"x": -48, "y": -60, "heading": 0},
+        "red_right": {"x": -48, "y": 60, "heading": 0},
+        "blue_left": {"x": 48, "y": 60, "heading": 180},
+        "blue_right": {"x": 48, "y": -60, "heading": 180},
+        "skills": {"x": -60, "y": -60, "heading": 0}
+    }
+}

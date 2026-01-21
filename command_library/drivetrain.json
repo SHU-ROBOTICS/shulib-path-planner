@@ -1,0 +1,27 @@
+{
+    "category": "Drivetrain",
+    "description": "Special drivetrain commands",
+    "commands": [
+        {
+            "id": "brake_hold",
+            "name": "Brake: Hold",
+            "code_template": "chassis.setBrakeMode(pros::E_MOTOR_BRAKE_HOLD);",
+            "color": "#4444BB",
+            "description": "Set drivetrain to hold position"
+        },
+        {
+            "id": "brake_coast",
+            "name": "Brake: Coast",
+            "code_template": "chassis.setBrakeMode(pros::E_MOTOR_BRAKE_COAST);",
+            "color": "#8888FF",
+            "description": "Set drivetrain to coast"
+        },
+        {
+            "id": "position_reset",
+            "name": "Reset Position",
+            "code_template": "positionReset(chassis);",
+            "color": "#FF8888",
+            "description": "Reset X and Y to (0, 0)"
+        }
+    ]
+}

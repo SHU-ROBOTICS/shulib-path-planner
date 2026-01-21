@@ -1,0 +1,27 @@
+{
+    "category": "Lift",
+    "description": "Commands for lift/arm motor mechanisms",
+    "commands": [
+        {
+            "id": "lift_up",
+            "name": "Lift Up",
+            "code_template": "mech.liftUp();",
+            "color": "#FFAA00",
+            "description": "Raise the lift"
+        },
+        {
+            "id": "lift_down",
+            "name": "Lift Down",
+            "code_template": "mech.liftDown();",
+            "color": "#AA6600",
+            "description": "Lower the lift"
+        },
+        {
+            "id": "lift_stop",
+            "name": "Lift Stop",
+            "code_template": "mech.liftStop();",
+            "color": "#664400",
+            "description": "Stop the lift"
+        }
+    ]
+}

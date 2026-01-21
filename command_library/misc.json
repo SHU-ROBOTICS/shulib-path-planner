@@ -1,0 +1,20 @@
+{
+    "category": "Misc",
+    "description": "Miscellaneous commands",
+    "commands": [
+        {
+            "id": "stop_all",
+            "name": "Stop All",
+            "code_template": "mech.stopAll();",
+            "color": "#FF0000",
+            "description": "Stop all mechanisms"
+        },
+        {
+            "id": "print_pose",
+            "name": "Print Position",
+            "code_template": "{\n    Pose p = chassis.getPose();\n    printf(\"Pose: (%.1f, %.1f) @ %.1f deg\\n\", p.x, p.y, p.theta);\n    fflush(stdout);\n}",
+            "color": "#888888",
+            "description": "Print current position to terminal"
+        }
+    ]
+}

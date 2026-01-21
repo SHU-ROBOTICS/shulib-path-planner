@@ -1,0 +1,13 @@
+{
+    "category": "Category Name",
+    "description": "Description of this command category",
+    "commands": [
+        {
+            "id": "example_command",
+            "name": "Example Command",
+            "code_template": "mech.exampleMethod();",
+            "color": "#FFFFFF",
+            "description": "What this command does"
+        }
+    ]
+}

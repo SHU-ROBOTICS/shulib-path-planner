@@ -1,0 +1,27 @@
+{
+    "category": "Claw",
+    "description": "Commands for claw/gripper mechanisms",
+    "commands": [
+        {
+            "id": "claw_open",
+            "name": "Claw Open",
+            "code_template": "mech.clawOpen();",
+            "color": "#00FFAA",
+            "description": "Open the claw"
+        },
+        {
+            "id": "claw_close",
+            "name": "Claw Close",
+            "code_template": "mech.clawClose();",
+            "color": "#00AA66",
+            "description": "Close the claw"
+        },
+        {
+            "id": "claw_toggle",
+            "name": "Claw Toggle",
+            "code_template": "mech.clawToggle();",
+            "color": "#00DD88",
+            "description": "Toggle claw open/closed"
+        }
+    ]
+}

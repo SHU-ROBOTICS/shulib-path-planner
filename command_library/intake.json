@@ -1,0 +1,43 @@
+{
+    "category": "Intake",
+    "description": "Commands for intake mechanisms",
+    "commands": [
+        {
+            "id": "intake_in",
+            "name": "Intake In",
+            "code_template": "mech.intakeIn();",
+            "color": "#00FF00",
+            "description": "Run intake inward to collect"
+        },
+        {
+            "id": "intake_out",
+            "name": "Intake Out",
+            "code_template": "mech.intakeOut();",
+            "color": "#FF6600",
+            "description": "Run intake outward to eject"
+        },
+        {
+            "id": "intake_stop",
+            "name": "Intake Stop",
+            "code_template": "mech.intakeStop();",
+            "color": "#006600",
+            "description": "Stop the intake"
+        },
+        {
+            "id": "intake_custom",
+            "name": "Intake (Speed)",
+            "code_template": "mech.intakeMove({velocity});",
+            "color": "#00AA00",
+            "description": "Run intake at custom velocity",
+            "parameters": [
+                {
+                    "name": "velocity",
+                    "type": "int",
+                    "min": -127,
+                    "max": 127,
+                    "default": 127
+                }
+            ]
+        }
+    ]
+}
